@@ -1,5 +1,6 @@
 package core;
 
+import io.swagger.client.ApiException;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
@@ -24,8 +25,11 @@ public class Controller implements Initializable {
 
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle("Information Dialog");
-        alert.setHeaderText("Look, an Information Dialog");
-        alert.setContentText("I have a great message for you!");
+        try {
+            alert.setContentText(String.valueOf(history.getAccountHistory().get(0)));
+        } catch (ApiException e) {
+            e.printStackTrace();
+        }
 
         alert.showAndWait();
     }
