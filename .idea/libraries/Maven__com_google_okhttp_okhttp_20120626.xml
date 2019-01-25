@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.google.okhttp:okhttp:20120626">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/okhttp/okhttp/20120626/okhttp-20120626.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/okhttp/okhttp/20120626/okhttp-20120626-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/okhttp/okhttp/20120626/okhttp-20120626-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
